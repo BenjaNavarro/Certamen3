@@ -1,1 +1,9 @@
-<p>vista works!</p>
+<div class="container-sm p-2 bd-highlight">
+    <div *ngFor="let Persona of listaPersonas" class="card h-100 d-inline-flex">
+        <img src="" class="card-img-top rounded" alt="" id="newimg">
+        <h5 class="card-title">{{Persona.nombre}} {{Persona.apellidos}}</h5>
+        <p class="card-text">{{Persona.pais}}</p>
+        <p class="card-text">{{Persona.ciudad}}</p>
+        <a class="btn btn-primary">Visitar</a>
+    </div>
+</div>

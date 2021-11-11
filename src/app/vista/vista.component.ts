@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { listaPersonas } from '../persona';
 
 @Component({
   selector: 'app-vista',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vista.component.scss']
 })
 export class VistaComponent implements OnInit {
+
+  listaPersonas = listaPersonas
 
   constructor() { }
 

@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FormComponent } from './form/form.component';
 import { VistaComponent } from './vista/vista.component';
 import { ListaComponent } from './lista/lista.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListaComponent } from './lista/lista.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

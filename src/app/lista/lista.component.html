@@ -1,1 +1,20 @@
-<p>lista works!</p>
+<table class="table-light container-md">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellidos</th>
+        <th scope="col">País</th>
+        <th scope="col">Ciudad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let Persona of listaPersonas">
+        <th scope="row">{{Persona.id}}</th>
+        <td>{{Persona.nombre}}</td>
+        <td>{{Persona.apellidos}}</td>
+        <td>{{Persona.pais}}</td>
+        <td>{{Persona.ciudad}}</td>
+      </tr>
+    </tbody>
+  </table>

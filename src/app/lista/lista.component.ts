@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { listaPersonas } from '../persona';
 
 @Component({
   selector: 'app-lista',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lista.component.scss']
 })
 export class ListaComponent implements OnInit {
+
+  listaPersonas = listaPersonas
 
   constructor() { }
 
